@@ -34,5 +34,5 @@ function submitForm(e) {
           Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
         });
     }
-  }, delay.value)
+  }, delay.value);
 }
