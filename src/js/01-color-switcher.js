@@ -6,7 +6,7 @@ let intervalId;
 buttonStart.addEventListener('click', startInterval);
 buttonStop.addEventListener('click', stopInterval);
 
-function startInterval(){
+function startInterval() {
   buttonStart.disabled = true;
   buttonStop.disabled = false;
   intervalId = setInterval(() => {
