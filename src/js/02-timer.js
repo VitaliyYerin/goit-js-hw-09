@@ -43,7 +43,7 @@ function addNunber (value) {
 
 function handleTimerChange() {
   timerId = setInterval(() => {
-    const selectedDate = fp.selectedDates[0].getTime();
+    const selectedDate = fp.selectedDates[0].valueOf();
     let delta = selectedDate - new Date();
     let dataItem = getMs(delta);
     if (delta < 0) {
